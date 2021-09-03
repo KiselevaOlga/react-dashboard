@@ -1,0 +1,7 @@
+.formInput{
+    border: none;
+    font-size: 1rem;
+}
+.formInput:focus { 
+    outline: none;
+}

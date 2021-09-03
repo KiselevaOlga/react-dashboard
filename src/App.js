@@ -46,11 +46,11 @@ function App() {
 export default App;
 
 const Container = styled.body`
+  box-sizing: border-box;
   display: grid;
-  height: 100vh;
+  min-height: 100vh;
   grid-template-columns: 0.2fr 1fr;
   grid-template-rows: 0.2fr 1.7fr 0.2fr; 
-  grid-gap: 20px;
   grid-template-areas: 
   'sidebar header header'
   'sidebar main main'

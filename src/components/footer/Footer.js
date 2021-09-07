@@ -3,9 +3,10 @@ import styled from "styled-components";
 const FooterWrapper = styled.footer`
     grid-area: footer;
     height: 45px;
-    background: white;
+    background: #F2F4F6;
     display: flex;
     margin: 0 10px;  
+    border-top: 1px solid lightgray;
 `;
 const FooterLink = styled.a`
     color: black;

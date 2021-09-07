@@ -53,4 +53,7 @@ export const Icon = styled.img.attrs(props=> ({
     border-width: ${props => props.borWidth || '0px'};
     border-style: solid;
     transition: all 150ms ease-in-out;
+    &:hover{
+        fill: green;
+    }
 `

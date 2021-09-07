@@ -29,9 +29,11 @@ export const Navbar = () => {
 const NavbarWrapper = styled.header`
     grid-area: header;
     background: white;
+    z-index: 2;
     height: 60px;
     display: flex;
     align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 `;
 
 const NavElement = styled.div`
@@ -41,17 +43,14 @@ const NavElement = styled.div`
         margin-left: auto;
     }
 `
-const Icon = styled.img.attrs(props=> ({
+export const Icon = styled.img.attrs(props=> ({
     src: props.Src || ""
   }))`
-    width: 25px;
+    width: ${props => props.width || "25px"};
     margin: 0 10px;
     padding: ${props=> props.padding || "0px"};
     border-color: ${props => props.borCol || 'transparent'};
     border-width: ${props => props.borWidth || '0px'};
     border-style: solid;
     transition: all 150ms ease-in-out;
-    &:hover:nth-of-type(1) {
-        transform: scale(1.1);
-    }
 `

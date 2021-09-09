@@ -1,7 +1,10 @@
 import {React} from 'react';
+import {ColumnChart} from "../../components/charts/ColumnChart";
 
 export const BlogDashboardPage = ()=>{
     return (
-        <p>Blog Dashboard hey</p>
+        <div>
+            <ColumnChart />
+        </div>
     )
 }

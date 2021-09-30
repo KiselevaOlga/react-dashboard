@@ -39,7 +39,8 @@ export const Sidebar = ()=>{
                 </NavLI>
                 <NavLI>
                     <Icon Src={addFile} width="20px" className="sideIcon"></Icon>
-                    <Navlink to = {ROUTES.ConstructionPage}>Add New Post</Navlink>
+                    <Navlink to = {ROUTES.ConstructionPage}>
+                        Add New Post</Navlink>
                 </NavLI>
                 <NavLI>
                     <Icon Src={table} width="20px" className="sideIcon"></Icon>

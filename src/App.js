@@ -5,6 +5,7 @@ import './App.css';
 import {BlogDashboardPage} from "./containers/blogDashboardPage/BlogDashboardPage";
 import {TablesPage} from "./containers/tablesPage/TablesPage";
 import {ConstructionPage} from "./containers/constructionPage/ConstructionPage";
+import {NewsPage} from "./containers/newsPage/NewsPage";
 import {Footer} from './components/footer/Footer';
 import {Navbar} from './components/navbar/Navbar';
 import {ROUTES, Sidebar} from './components/sidebar/Sidebar';
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route path = {ROUTES.ConstructionPage}>
             <ConstructionPage />
+          </Route>
+          <Route path = {ROUTES.NewsPage}>
+            <NewsPage />
           </Route>
         </Switch>
       </Main>

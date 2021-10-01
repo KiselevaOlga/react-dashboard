@@ -17,7 +17,8 @@ import addFile from "../../images/icons/addFile.svg";
 export const ROUTES = {
     BlogDashboard: "/blogDashboard",
     Tables: "/tables",
-    ConstructionPage: "/constructionPage"
+    ConstructionPage: "/constructionPage",
+    NewsPage: "/newsPage"
 }
 
 export const Sidebar = ()=>{
@@ -36,6 +37,10 @@ export const Sidebar = ()=>{
                 <NavLI>
                     <Icon Src={blogList} width="20px" className="sideIcon"></Icon>
                     <Navlink to = {ROUTES.ConstructionPage}>Blog Posts</Navlink>
+                </NavLI>
+                <NavLI>
+                    <Icon Src={blogList} width="20px" className="sideIcon"></Icon>
+                    <Navlink to = {ROUTES.NewsPage}>News APIs</Navlink>
                 </NavLI>
                 <NavLI>
                     <Icon Src={addFile} width="20px" className="sideIcon"></Icon>

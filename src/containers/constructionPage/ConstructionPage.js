@@ -12,7 +12,7 @@ export const ConstructionPage = ()=>{
                 <GreyButton>Explore more...</GreyButton>
             </BigHeader>
             <figure>
-                <img src={construction} className="bigPic"/>
+                <img src={construction} className="bigPic" alt="construction"/>
             </figure>
         </div>
     )

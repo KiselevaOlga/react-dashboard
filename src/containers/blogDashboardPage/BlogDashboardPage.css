@@ -1,0 +1,11 @@
+.cards-holder{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.charts-holder{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+}
